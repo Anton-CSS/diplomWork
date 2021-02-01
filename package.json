@@ -1,0 +1,45 @@
+{
+  "name": "js-advanced-diploma",
+  "version": "1.0.0",
+  "description": "diplom work",
+  "main": "index.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --mode production",
+    "dev": "cross-env NODE_ENV=development webpack --mode development",
+    "lint": "eslint . --fix",
+    "test": "jest",
+    "start": "cross-env NODE_ENV=development webpack serve --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anton-CSS/diplomWork.git"
+  },
+  "author": "Anton Rokunets",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anton-CSS/diplomWork/issues"
+  },
+  "homepage": "https://github.com/Anton-CSS/diplomWork#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.0.1",
+    "css-minimizer-webpack-plugin": "^1.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "file-loader": "^6.2.0",
+    "html-loader": "^1.3.2",
+    "html-webpack-plugin": "^4.5.1",
+    "image-minimizer-webpack-plugin": "^2.2.0",
+    "jest": "^25.4.0",
+    "mini-css-extract-plugin": "^1.3.5",
+    "terser-webpack-plugin": "^5.1.1",
+    "webpack": "^5.19.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
